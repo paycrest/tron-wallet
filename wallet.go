@@ -270,7 +270,7 @@ func (t *TronWallet) TransferTRC20(token *Token, toAddressBase58 string, amountI
 		return "", err
 	}
 
-	tx, err := createTrc20TransactionInput(t.Node, t.AddressBase58, token, toAddressBase58, big.NewInt(amountInTRC20), feeLimit int64)
+	tx, err := createTrc20TransactionInput(t.Node, t.AddressBase58, token, toAddressBase58, big.NewInt(amountInTRC20), feeLimit)
 	if err != nil {
 		return "", err
 	}
