@@ -1,10 +1,11 @@
 package test
 
 import (
-	tronWallet "github.com/ranjbar-dev/tron-wallet"
-	"github.com/stretchr/testify/assert"
 	"strings"
 	"testing"
+
+	tronWallet "github.com/paycrest/tron-wallet"
+	"github.com/stretchr/testify/assert"
 )
 
 // GenerateTronWallet test

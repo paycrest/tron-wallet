@@ -2,8 +2,9 @@ package tronWallet
 
 import (
 	"crypto/ecdsa"
-	"github.com/ranjbar-dev/tron-wallet/enums"
-	"github.com/ranjbar-dev/tron-wallet/grpcClient"
+
+	"github.com/paycrest/tron-wallet/enums"
+	"github.com/paycrest/tron-wallet/grpcClient"
 )
 
 func estimateTrc10TransactionFee(node enums.Node, privateKey *ecdsa.PrivateKey, fromAddressBase58 string, toAddressBase58 string, amountInSun int64) (int64, error) {

@@ -1,4 +1,4 @@
-module github.com/ranjbar-dev/tron-wallet
+module github.com/paycrest/tron-wallet
 
 go 1.18
 

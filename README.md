@@ -1,4 +1,4 @@
-![image](https://github.com/ranjbar-dev/tron-wallet/blob/main/assets/image.png?raw=true)
+![image](https://github.com/paycrest/tron-wallet/blob/main/assets/image.png?raw=true)
 
 
 # tron-wallet
@@ -6,7 +6,7 @@ tron wallet package for creating and generating wallet, transferring TRX, gettin
 
 ### Installation 
 ```
-go get github.com/ranjbar-dev/tron-wallet@v1.0.6
+go get github.com/paycrest/tron-wallet@v1.0.6
 ```
 
 ### Test

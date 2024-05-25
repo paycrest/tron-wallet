@@ -7,8 +7,8 @@
 package util
 
 import (
-	api "github.com/ranjbar-dev/tron-wallet/grpcClient/proto/api"
-	core "github.com/ranjbar-dev/tron-wallet/grpcClient/proto/core"
+	api "github.com/paycrest/tron-wallet/grpcClient/proto/api"
+	core "github.com/paycrest/tron-wallet/grpcClient/proto/core"
 	proto "github.com/golang/protobuf/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

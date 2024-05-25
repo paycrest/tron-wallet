@@ -8,7 +8,7 @@ package api
 
 import (
 	context "context"
-	core "github.com/ranjbar-dev/tron-wallet/grpcClient/proto/core"
+	core "github.com/paycrest/tron-wallet/grpcClient/proto/core"
 	proto "github.com/golang/protobuf/proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "google.golang.org/grpc"
