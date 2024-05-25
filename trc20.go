@@ -14,7 +14,7 @@ const (
 	trc20DecimalsSignature       = "0x313ce567"
 	trc20BalanceOf               = "0x70a08231"
 	trc20TransferMethodSignature = "0xa9059cbb"
-	trc20FeeLimit                = 10000000
+	trc20FeeLimit                = 11000000
 )
 
 type Token struct {
