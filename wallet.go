@@ -263,14 +263,14 @@ func (t *TronWallet) EstimateTransferFee(toAddressBase58 string, amountInSun int
 	return estimateTrc10TransactionFee(t.Node, privateKey, t.AddressBase58, toAddressBase58, amountInSun)
 }
 
-func (t *TronWallet) TransferTRC20(token *Token, toAddressBase58 string, amountInTRC20 int64) (string, error) {
+func (t *TronWallet) TransferTRC20(token *Token, toAddressBase58 string, amountInTRC20 int64, feeLimit int64) (string, error) {
 
 	privateKey, err := t.PrivateKeyRCDSA()
 	if err != nil {
 		return "", err
 	}
 
-	tx, err := createTrc20TransactionInput(t.Node, t.AddressBase58, token, toAddressBase58, big.NewInt(amountInTRC20))
+	tx, err := createTrc20TransactionInput(t.Node, t.AddressBase58, token, toAddressBase58, big.NewInt(amountInTRC20), feeLimit int64)
 	if err != nil {
 		return "", err
 	}
